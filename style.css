@@ -93,7 +93,19 @@ h2{
     .halfWrapper{
         border:0px;
         width:40%;
-        margin-left:5%;
+        margin-left:4%;
+
+        border-radius:10px;
+        box-shadow: 10px 10px 50px  crimson;
+        padding:10px;
+        padding-left:20px;
+        float:left
+    }
+
+    .halfWrapperA{
+        border:0px;
+        width:40%;
+        margin-right:4%;
 
         border-radius:10px;
         box-shadow: 10px 10px 50px  crimson;
@@ -113,12 +125,12 @@ h2{
     }
     .halfWrapper{
         border-left:7px solid;
-        border-image:linear-gradient(blue,cyan) ;
+        border-image:linear-gradient(rgb(255, 0, 255),cyan) ;
         border-image-slice: 1;
     }
     .halfWrapperA{
         border-left:7px solid;
-        border-image:linear-gradient(blue,cyan) ;
+        border-image:linear-gradient(hsl(54, 100%, 50%),hsl(202, 100%, 50%)) ;
         border-image-slice: 1;
         float:right
     }
